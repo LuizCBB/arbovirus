@@ -277,12 +277,12 @@ TTTAACTGCTTGGGAATGGGGAATCGGGACTTCATAGAAGGAGCCAGCGGAGCCACTTGGGTGGATCTGGTGTTAGAAGG
 
 if ex:
     st.session_state["sequences"] = example
-    st.experimental_rerun()  
+    st.rerun()  
 
 
 if cl:
     st.session_state["sequences"] = ""
-    st.experimental_rerun()  
+    st.rerun()  
     
     
     
